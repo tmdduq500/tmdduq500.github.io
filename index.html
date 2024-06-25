@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - iPortfolio Bootstrap Template</title>
+  <title>오승엽 포트폴리오</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,6 +27,27 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!--My CSS-->
+  <style>
+    .my-td1 {
+      width: 130px;
+      vertical-align: top;
+    }
+
+    .my-td2 {
+      height: 200px;
+      vertical-align: top;
+    }
+
+    tr {
+      border-top: solid 1px #BFC4C7;
+    }
+
+    table {
+      width: 95%;
+    }
+  </style>
+
   <!-- =======================================================
   * Template Name: iPortfolio
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -48,42 +69,21 @@
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
       <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename">Alex Smith</h1>
+      <h1 class="sitename">오승엽 포트폴리오</h1>
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/tmdduq500" class="github" target="_blank"><i class="bi bi-github"></i></a>
+      <a href="https://broad-backend.tistory.com" target="_blank"><i><img src="assets\img\tistory-favicon.ico" alt="" style="filter: invert(100%);"></i></a>
     </div>
 
     <nav id="navmenu" class="navmenu">
       <ul>
         <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
         <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-stack navicon"></i> Skills</a></li>
         <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
         <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-          <ul>
-            <li><a href="#">Dropdown 1</a></li>
-            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="#">Deep Dropdown 1</a></li>
-                <li><a href="#">Deep Dropdown 2</a></li>
-                <li><a href="#">Deep Dropdown 3</a></li>
-                <li><a href="#">Deep Dropdown 4</a></li>
-                <li><a href="#">Deep Dropdown 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Dropdown 2</a></li>
-            <li><a href="#">Dropdown 3</a></li>
-            <li><a href="#">Dropdown 4</a></li>
-          </ul>
-        </li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
 
@@ -92,13 +92,11 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+    <section id="hero" class="hero section" style="background-color: F3FAFE;">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Alex Smith</h2>
-        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <div class="container" data-aos="fade-up" data-aos-delay="0">
+        <h2>안녕하세요 오승엽입니다</h2>
+        <p>I'm <span class="typed" data-typed-items="Back-End Developer"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
 
     </section><!-- /Hero Section -->
@@ -109,42 +107,37 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="" width="300px;">
           </div>
           <div class="col-lg-8 content">
-            <h2>UI/UX Designer &amp; Web Developer.</h2>
-            <p class="fst-italic py-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+            <h2>Back End & Web Developer.</h2>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1999.07.15</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a href="https://github.com/tmdduq500">Go to GitHub</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Blog:</strong> <span><a href="https://broad-backend.tistory.com">Go to Blog</a></span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>인천대학교 정보통신공학과</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>osy9907@naver.com</span></li>
                 </ul>
               </div>
             </div>
-            <p class="py-3">
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+            <p class="fst-italic py-3">
+              안녕하세요, 신입 백엔드 개발자 오승엽입니다. <br><br>
+              등이 넓으면 사람이 든든해 보인다는 말이 있습니다. <br>
+              저도 그런 든든한 개발자가 되기 위해 노력하고 있습니다. <br>
+              협업하게 될 모든 분들이 저를 믿고 맡길 수 있도록, 책임감 있고 신뢰할 수 있는 개발자가 되겠습니다. <br>
+              
             </p>
           </div>
         </div>
@@ -153,112 +146,72 @@
 
     </section><!-- /About Section -->
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
     <!-- Skills Section -->
     <section id="skills" class="skills section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row skills-content skills-animation">
 
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-md-3 text-center animate-box">
+            <div style="border: 1px solid #ebebeb; padding: 80px 20px;">
+              <div>
+                <h3 style="padding-bottom: 10px;">Front-End</h3>
+                <p class="text-left">
+                  <img src="assets/img/logo/HTML.svg" style="height: 25px;"> HTML5<br>
+                  <img src="assets/img/logo/CSS.svg" style="height: 25px;"> CSS<br>
+                  <img src="assets/img/logo/JavaScript.svg" style="height: 25px;"> JS/Jquery<br> 
+                  <img src="assets/img/logo/Bootstrap.svg" style="height: 18px;"> BootStrap<br>
+                  &nbsp;<br>
+                </p>
               </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
+            </div>
           </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="col-md-3 text-center animate-box">
+            <div style="border: 1px solid #ebebeb; padding: 80px 20px;">
+              <div>
+                <h3 style="padding-bottom: 10px;">Back-End</h3>
+                <p class="text-left">
+                  <img src="assets/img/logo/Java-Light.svg" style="height: 25px; width:21px;"> Java<br>
+                  <img src="assets/img/logo/Spring-Light.svg" style="height: 25px;"> Spring<br>
+                  <img src="assets/img/logo/Spring-Light.svg" style="height: 25px;"> SpringBoot<br>
+                  <img src="assets/img/logo/jsp.png" style="height: 25px;"> JSP/JSTL<br>
+                  <img src="assets/img/logo/mybatis.png" style="height: 25px;"> MyBatis<br>
+                </p>
               </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center animate-box">
+            <div style="border: 1px solid #ebebeb; padding: 80px 20px;">
+              <div>
+                <h3 style="padding-bottom: 10px;">DATABASE</h3>
+                <p class="text-left">
+                  <img src="assets/img/logo/mariadb.png" style="height: 25px; width: 25px;"> MariaDB<br>
+                  <img src="assets/img/logo/oracledb.png" style="height: 25px;"> OracleDB<br>
+                  <img src="assets/img/logo/MySQL-Light.svg" style="height: 25px;"> MySql<br>
+                  &nbsp;<br><br>
+                </p>
               </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center animate-box">
+            <div style="border: 1px solid #ebebeb; padding: 80px 20px;">
+              <div>
+                <h3 style="padding-bottom: 10px;">TOOL</h3>
+                <p class="text-left">
+                  <img src="assets/img/logo/Eclipse-Light.svg" style="height: 25px; width: 22px;"> Eclipse<br>
+                  <img src="assets/img/logo/Github-Light.svg" style="height: 25px;"> Github<br>
+                  <img src="assets/img/logo/sts4.png" style="height: 25px;"> STS4<br>
+                  <img src="assets/img/logo/AWS-Light.svg" style="height: 20px;">AWS Ligthsail<br>
+                  &nbsp;<br>
+                </p>
               </div>
-            </div><!-- End Skills Item -->
-
+            </div>
           </div>
 
         </div>
@@ -267,82 +220,89 @@
 
     </section><!-- /Skills Section -->
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
+     <!-- ======= Resume Section ======= -->
+     <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+         <!--  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
 
         <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
-
-            <div class="resume-item pb-0">
-              <h4>Brandon Johnson</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
+          <div class="col-lg-6">
+            <h3 class="resume-title">학력</h3>
+            <div class="resume-item">
+              <h4>인천대학교 정보통신공학과</h4>
+              <h5>2018.03 - 2024.02</h5>
+               <ul>
+                <li>학점: 3.71 / 4.5</li>
               </ul>
-            </div><!-- Edn Resume Item -->
-
-            <h3 class="resume-title">Education</h3>
+            </div>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div><!-- Edn Resume Item -->
+              <h4>창원대산고등학교</h4>
+              <h5>2015.03 - 2018.02</h5>
+              <ul>
+                <li>인문계 이과</li>
+              </ul>
+            </div>
+          
+          
+            <h3 class="resume-title">자격 / 어학 / 수상</h3>
+            <div class="resume-item">
+              <h4>정보통신기획평가원장상(ICT멘토링 한이음 은상)</h4>
+              <h5>2023.12.07</h5>
+            </div>
 
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-            </div><!-- Edn Resume Item -->
+              <h4>SQLD (SQL 개발자)</h4>
+              <h5>2023.10.06</h5>
+            </div>
 
+            <div class="resume-item">
+              <h4>TOEIC</h4>
+              <h5>2023.05.28</h5>
+            </div>
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
+         
+          <div class="col-lg-6">
+            <h3 class="resume-title">교육</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>구디아카데미: (K-DT) 자바 개발자 양성과정</h4>
+              <h5>2024.02.26 - 2024.08.23</h5>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>총 119일 / 946시간 </li>
+                <li>컴퓨터 프로그래밍 언어로 각 업무에 맞는 소프트웨어의 기능에 관한 설계 및 구현 수행, 사용자에게 배포할 수 있는 기능 습득</li>
+                <li>1개월차</li>
+                <ul>
+                	<li>HTML, CSS, JSP, JAVA 기초 학습</li>
+                	<li>Dynamic Web Project를 생성해 JSP로 웹 페이지 구현</li>
+                </ul>
+                <li>2개월차</li>
+                <ul>
+                	<li>session 개념을 활용하여 쇼핑몰 웹 사이트 구현</li>
+                </ul>
+                <li>3개월차</li>
+                <ul>
+                	<li>JSP를 활용한 Model1 방식 팀 프로젝트(숙소예약 웹사이트) 진행</li>
+                </ul>
+                <li>4개월차</li>
+                <ul>
+                	<li>Amazon Web Services Lightsail을 이용하여 ubuntu 서버로 프로젝트 배포</li>
+                	<li>STS4를 활용하여 Spring Framework를 학습하고 MyBatis, RestAPI, chart.js 등을 사용</li>
+                </ul>
+                <li>5개월차 이후</li>
+                <ul>
+                	<li>Spring Boot 기반 숙소예약 플랫폼 팀 프로젝트 진행</li>
+                	<li>요구사항 명세서, 간트차트, 화면설계서 작성, ERD 및 DB 설계</li>
+                </ul>
               </ul>
-            </div><!-- Edn Resume Item -->
-
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
-              <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-              </ul>
-            </div><!-- Edn Resume Item -->
-
+            </div>
           </div>
-
         </div>
 
       </div>
-
-    </section><!-- /Resume Section -->
+    </section><!-- End Resume Section -->
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -350,7 +310,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>프로젝트는 최신 순으로 구성되어있습니다.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -359,431 +319,226 @@
 
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Product</li>
-            <li data-filter=".filter-branding">Branding</li>
-            <li data-filter=".filter-books">Books</li>
+            <li data-filter=".filter-final">Final Project</li>
+            <li data-filter=".filter-semi">Semi Project</li>
+            <li data-filter=".filter-shop">Shop Project</li>
+            <li data-filter=".filter-diary">Diary Project</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <!-- 세미 프로젝트 -->
+            <div class="col-12 portfolio-item isotope-item filter-semi">
+              <div class="row h-100">
+                  <div class="col-lg-6 col-md- portfolio-content">
+                      <a href="http://13.209.31.26/BeeNb/customer/customerRoomList.jsp" target="_blank">
+                        <img src="assets/img/portfolio/semi_project.png" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                      <div>
+                        <h2>숙소 예약 사이트</h2>
+                        <h4>2024.05.07 ~ 2024.05.31 (3주)</h4>
+                        <br>
+                        <p>
+                          Model 1방식을 이용한 JSP기반 숙소 예약 사이트입니다.<br><br>
+                          <b>&lt;담당기능 구현&gt;</b>
+                          <br><br>
+                          [관리자]<br>
+                          &emsp;- 관리자의 이름으로 검색기능, 페이징 기능이 포함된 관리자 목록 페이지 구현<br>
+                          &emsp;- 관리자의 생성 페이지 및 기능 구현<br>
+                          &emsp;- 예약(결제)된 숙소의 금액의 일부분(수수료)를 조회할 수 있는 매출 관리 페이지 <br>&emsp;&emsp;구현(페이징 기능 포함)<br>
+                          &emsp;- 호스트, 게스트들을 확인할 수 있는 회원관리 페이지 구현(페이징 기능 포함)<br>
+                          <br>
+                          [호스트]<br>
+                          &emsp;- 호스트의 숙소들을 볼 수 있는 호스팅 숙소 목록 페이지 구현<br>
+                          &emsp;- 호스트가 호스팅한 숙소들의 상세 정보 페이지 구현<br>
+                          &emsp;- 해당 숙소의 날짜 별로 가격을 추가, 삭제, 조회 할수 있는 기능 구현<br>
+                          &emsp;- 해당 숙소의 후기 목록 구현<br>
+                          &emsp;- 호스팅한 숙소들의 예약 목록을 조회하고, 게스트의 예약을 취소할 수 있는 페이지<br>&emsp;&emsp;(숙소별 조회, 페이징 기능) 및 기능 구현<br>
+                        </p>
+                        <hr>
+                        <a href="https://github.com/TEAM-beeNb/BeeNb" class="btn btn-dark" target="_blank">Github</a>
+                        <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=2023607474#gid=2023607474" class="btn btn-info" target="_blank">인터페이스 설계서</a>
+                        <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=1064995659#gid=1064995659" class="btn btn-warning" target="_blank">WBS</a>
+                        <a href="assets/img/portfolio/semi_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                        <br><br>
+                        <table>
+                          <tr>
+                            <td class="my-td1"><br>개발 환경</td>
+                            <td class="my-td2">
+                              <br>
+                              OS : Window 10
+                              <br>
+                              Language : Java(JavaSE-17), SQL, JSP
+                              <br>
+                              Tools : Eclipse, HeidiSQL
+                              <br>
+                              Database : MariaDB(10.4)
+                              <br>
+                              Server : Apache Tomcat (10.4 )
+                            </td>
+                          </tr>
+                          <tr style="border-bottom: solid 1px #BFC4C7;">
+                            <td class="my-td1"><br>서비스 환경</td>
+                            <td class="my-td2">
+                              <br>
+                              OS: Ubuntu (20.04)
+                              <br>
+                              Platform : Amazon Web Services Lightsail
+                              <br>
+                              Database : MariaDB(11.4)
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                  </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            
+            <!-- 쇼핑몰 프로젝트 -->
+            <div class="col-12 portfolio-item isotope-item filter-shop">
+              <div class="row h-100">
+                  <div class="col-lg-6 col-md- portfolio-content">
+                      <a href="http://13.209.31.26/shop/customer/goods/customerGoodsList.jsp" target="_blank">
+                        <img src="assets/img/portfolio/shop_project.png" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                      <div>
+                        <h2>쇼핑몰 프로젝트</h2>
+                        <h4>2024.04.01 ~ 2024.05.03 (4주)</h4>
+                        <br>
+                        <p>
+                          MVC Model 1방식을 이용한 웹 개발 프로젝트입니다. <br>
+                          Controller와 View를 JSP에서 구현했고 DAO와 Connection Pool을 java 패키지로 따로 관리했습니다. <br><br>
+                          <b>&lt;기능&gt;</b>
+                          <br><br>
+                          [관리자]<br>
+                          &emsp;- 관리자 관리(추가 및 탈퇴) 및 권한 부여 기능(ON, OFF)<br>
+                          &emsp;- 상품 카테고리 관리(추가 및 삭제) 기능<br>
+                          &emsp;- 상품 관리(추가, 수정, 삭제) 및 리뷰 관리(삭제) 기능<br>
+                          &emsp;- 주문 관리 기능(배송 상태 변경)<br>
+                          <br>
+                          [고객]<br>
+                          &emsp;- 회원가입 및 로그인 기능<br>
+                          &emsp;- 개인정보 수정 및 탈퇴 기능<br>
+                          &emsp;- 최근 본 상품 기능<br>
+                          &emsp;- 상품 주문 기능 및 리뷰 작성, 수정, 삭제 기능<br>
+                          &emsp;- 해당 숙소의 후기 목록<br>
+                        </p>
+                        <hr>
+                        <a href="https://github.com/tmdduq500/shop-project" class="btn btn-dark" target="_blank">Github</a>
+                        <a href="assets/img/portfolio/shop_mindmap_emp.png" class="btn btn-info" target="_blank">마인드맵(관리자)</a>
+                        <a href="assets/img/portfolio/shop_mindmap_customer.png" class="btn btn-info" target="_blank">마인드맵(고객)</a>
+                        <a href="assets/img/portfolio/shop_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                        <br><br>
+                        <table>
+                          <tr>
+                            <td class="my-td1"><br>개발 환경</td>
+                            <td class="my-td2">
+                              <br>
+                              OS : Window 10
+                              <br>
+                              Language : Java(JavaSE-17), SQL, JSP
+                              <br>
+                              Tools : Eclipse, HeidiSQL
+                              <br>
+                              Database : MariaDB(10.4) -> OracleDB(19c)
+                              <br>
+                              Server : Apache Tomcat (10.1)
+                            </td>
+                          </tr>
+                          <tr style="border-bottom: solid 1px #BFC4C7;">
+                            <td class="my-td1"><br>서비스 환경</td>
+                            <td class="my-td2">
+                              <br>
+                              OS: Ubuntu (20.04)
+                              <br>
+                              Platform : Amazon Web Services Lightsail
+                              <br>
+                              Database : MariaDB(11.4)-> OracleDB(19c)
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                  </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
+            <!-- 다이어리 프로젝트 -->
+            <div class="col-12 portfolio-item isotope-item filter-diary">
+              <div class="row h-100">
+                  <div class="col-lg-6 col-md- portfolio-content">
+                      <a href="http://13.209.31.26/diary/diaryListOfMonth.jsp" target="_blank">
+                        <img src="assets/img/portfolio/diary_project.png" class="img-fluid" alt="">
+                          <div class="portfolio-info">
+                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                    <div>
+                      <h2>다이어리 프로젝트</h2>
+                      <h4>2024.03.26 ~ 2024.04.03 (1주)</h4>
+                      <br>
+                      <p>
+                        Dynamic Web Project를 사용해 JSP로 개발하였습니다.<br>
+                        전공으로 프로그래밍 언어(ex.java, python, SQL)을 배웠었지만 웹 개발은 처음이었습니다. <br>
+                        DB부터 브라우저까지 웹이 작동하는 방식을 알 수 있었습니다. <br>
+                        JDBC API를 이용하여 DB를 연동했고, JSP로 Controller, View를 모두 구현하였습니다. <br>
+                      </p>
+                      <hr>
+                      <a href="https://github.com/tmdduq500/diary-project" class="btn btn-dark" target="_blank">Github</a>
+                      <a href="assets/img/portfolio/diary_mindmap.png" class="btn btn-info" target="_blank">마인드맵</a>
+                      <a href="assets/img/portfolio/diary_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                      <br><br>
+                      <table>
+                        <tr>
+                          <td class="my-td1"><br>개발 환경</td>
+                          <td class="my-td2">
+                            <br>
+                            OS : Window 10
+                            <br>
+                            Language : Java(JavaSE-17), SQL, JSP
+                            <br>
+                            Tools : Eclipse, HeidiSQL
+                            <br>
+                            Database : MariaDB(10.4)
+                            <br>
+                            Server : Apache Tomcat(10.1)
+                          </td>
+                        </tr>
+                        <tr style="border-bottom: solid 1px #BFC4C7;">
+                          <td class="my-td1"><br>서비스 환경</td>
+                          <td class="my-td2">
+                            <br>
+                            OS: Ubuntu (20.04)
+                            <br>
+                            Platform : Amazon Web Services Lightsail
+                            <br>
+                            Database : MariaDB(11.4)
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
               </div>
             </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
+        
+        </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
 
     </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
-            <div>
-              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 1
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-5">
-
-            <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                <i class="bi bi-geo-alt flex-shrink-0"></i>
-                <div>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                <i class="bi bi-telephone flex-shrink-0"></i>
-                <div>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                <i class="bi bi-envelope flex-shrink-0"></i>
-                <div>
-                  <h3>Email Us</h3>
-                  <p>info@example.com</p>
-                </div>
-              </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <label for="name-field" class="pb-2">Your Name</label>
-                  <input type="text" name="name" id="name-field" class="form-control" required="">
-                </div>
-
-                <div class="col-md-6">
-                  <label for="email-field" class="pb-2">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <label for="message-field" class="pb-2">Message</label>
-                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
 
   </main>
 

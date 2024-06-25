@@ -484,9 +484,9 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  --default-color: #ffffff;
-  --background-color: #000000;
-  --heading-color: #ffffff;
+  --default-color: #000000;
+  --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+  --heading-color: #000000;
   width: 100%;
   min-height: 100vh;
   position: relative;
