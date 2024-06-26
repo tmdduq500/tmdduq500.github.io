@@ -137,7 +137,6 @@
               등이 넓으면 사람이 든든해 보인다는 말이 있습니다. <br>
               저도 그런 든든한 개발자가 되기 위해 노력하고 있습니다. <br>
               협업하게 될 모든 분들이 저를 믿고 맡길 수 있도록, 책임감 있고 신뢰할 수 있는 개발자가 되겠습니다. <br>
-              
             </p>
           </div>
         </div>
@@ -310,7 +309,11 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>프로젝트는 최신 순으로 구성되어있습니다.</p>
+        <p>
+          프로젝트는 최신 순으로 구성되어있으며 팀 프로젝트와 개인 프로젝트로 나누었습니다. <br>
+          팀 프로젝트는 Final 프로젝트, Semi 프로젝트가 있습니다. <br>
+          개인 프로젝트로는 Diary, Shop 프로젝트, 딥러닝 음표 인식 프로젝트(졸업작품)가 있습니다.
+        </p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -321,214 +324,339 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-final">Final Project</li>
             <li data-filter=".filter-semi">Semi Project</li>
-            <li data-filter=".filter-shop">Shop Project</li>
-            <li data-filter=".filter-diary">Diary Project</li>
+            <li data-filter=".filter-solo">개인 프로젝트</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
+            <!-- 파이널 프로젝트 -->
+            <div class="col-12 portfolio-item isotope-item filter-final">
+              <div class="row h-100">
+                <div class="col-lg-6 col-md- portfolio-content" style="height: fit-content;">
+                  <!-- <a href="#" target="_blank"> -->
+                    <img src="" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <p>클릭시 사이트로 이동합니다</p>
+                      <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                  <div>
+                    <h2>숙소 예약 사이트(Final - 팀 프로젝트)</h2>
+                    <h4>2024.06.04 ~ 미정</h4>
+                    <br>
+                    <!-- <p>
+                      Spring 프로젝트<br><br>
+                      <b>&lt;담당기능 구현&gt;</b>
+                      <br><br>
+                      [기능]<br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      <br>
+                      [기능]<br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                      &emsp;- <br>
+                    </p>
+                    <hr>
+                    <a href="#" class="btn btn-dark" target="_blank">Github</a>
+                    <a href="#" class="btn btn-info" target="_blank">인터페이스 설계서</a>
+                    <a href="#" class="btn btn-warning" target="_blank">WBS</a>
+                    <a href="#" class="btn btn-success" target="_blank">ERD</a>
+                    <br><br>
+                    <table>
+                      <tr>
+                        <td class="my-td1"><br>개발 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS : Window 10
+                          <br>
+                          Language : 
+                          <br>
+                          Tools :
+                          <br>
+                          Database : 
+                          <br>
+                          Server : 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="my-td1"><br>서비스 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS: 
+                          <br>
+                          Platform : 
+                          <br>
+                          Database : 
+                        </td>
+                      </tr>
+                    </table> -->
+                  </div>
+                </div>
+                <hr>
+              </div>
+            </div><!-- End Portfolio Item -->
+
             <!-- 세미 프로젝트 -->
             <div class="col-12 portfolio-item isotope-item filter-semi">
               <div class="row h-100">
-                  <div class="col-lg-6 col-md- portfolio-content">
-                      <a href="http://13.209.31.26/BeeNb/customer/customerRoomList.jsp" target="_blank">
-                        <img src="assets/img/portfolio/semi_project.png" class="img-fluid" alt="">
-                          <div class="portfolio-info">
-                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
-                      <div>
-                        <h2>숙소 예약 사이트</h2>
-                        <h4>2024.05.07 ~ 2024.05.31 (3주)</h4>
-                        <br>
-                        <p>
-                          Model 1방식을 이용한 JSP기반 숙소 예약 사이트입니다.<br><br>
-                          <b>&lt;담당기능 구현&gt;</b>
-                          <br><br>
-                          [관리자]<br>
-                          &emsp;- 관리자의 이름으로 검색기능, 페이징 기능이 포함된 관리자 목록 페이지 구현<br>
-                          &emsp;- 관리자의 생성 페이지 및 기능 구현<br>
-                          &emsp;- 예약(결제)된 숙소의 금액의 일부분(수수료)를 조회할 수 있는 매출 관리 페이지 <br>&emsp;&emsp;구현(페이징 기능 포함)<br>
-                          &emsp;- 호스트, 게스트들을 확인할 수 있는 회원관리 페이지 구현(페이징 기능 포함)<br>
+                <div class="col-lg-6 col-md- portfolio-content" style="height: fit-content;">
+                    <a href="http://13.209.31.26/BeeNb/customer/customerRoomList.jsp" target="_blank">
+                      <img src="assets/img/portfolio/semi_project.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <p>클릭시 사이트로 이동합니다</p>
+                          <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                  <div>
+                    <h2>숙소 예약 사이트(Semi - 팀 프로젝트)</h2>
+                    <h4>2024.05.07 ~ 2024.05.31 (3주)</h4>
+                    <br>
+                    <p>
+                      Model 1방식을 이용한 JSP기반 숙소 예약 사이트입니다.<br><br>
+                      <b>&lt;담당기능 구현&gt;</b>
+                      <br><br>
+                      [관리자]<br>
+                      &emsp;- 관리자의 이름으로 검색기능, 페이징 기능이 포함된 관리자 목록 페이지 구현<br>
+                      &emsp;- 관리자의 생성 페이지 및 기능 구현<br>
+                      &emsp;- 예약(결제)된 숙소의 금액의 일부분(수수료)를 조회할 수 있는 매출 관리 페이지 <br>&emsp;&emsp;구현(페이징 기능 포함)<br>
+                      &emsp;- 호스트, 게스트들을 확인할 수 있는 회원관리 페이지 구현(페이징 기능 포함)<br>
+                      <br>
+                      [호스트]<br>
+                      &emsp;- 호스트의 숙소들을 볼 수 있는 호스팅 숙소 목록 페이지 구현<br>
+                      &emsp;- 호스트가 호스팅한 숙소들의 상세 정보 페이지 구현<br>
+                      &emsp;- 해당 숙소의 날짜 별로 가격을 추가, 삭제, 조회 할수 있는 기능 구현<br>
+                      &emsp;- 해당 숙소의 후기 목록 구현<br>
+                      &emsp;- 호스팅한 숙소들의 예약 목록을 조회하고, 게스트의 예약을 취소할 수 있는 페이지<br>&emsp;&emsp;(숙소별 조회, 페이징 기능) 및 기능 구현<br>
+                    </p>
+                    <hr>
+                    <a href="https://github.com/TEAM-beeNb/BeeNb" class="btn btn-dark" target="_blank">Github</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=2023607474#gid=2023607474" class="btn btn-info" target="_blank">인터페이스 설계서</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=1064995659#gid=1064995659" class="btn btn-warning" target="_blank">WBS</a>
+                    <a href="assets/img/portfolio/semi_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                    <br><br>
+                    <table>
+                      <tr>
+                        <td class="my-td1"><br>개발 환경</td>
+                        <td class="my-td2">
                           <br>
-                          [호스트]<br>
-                          &emsp;- 호스트의 숙소들을 볼 수 있는 호스팅 숙소 목록 페이지 구현<br>
-                          &emsp;- 호스트가 호스팅한 숙소들의 상세 정보 페이지 구현<br>
-                          &emsp;- 해당 숙소의 날짜 별로 가격을 추가, 삭제, 조회 할수 있는 기능 구현<br>
-                          &emsp;- 해당 숙소의 후기 목록 구현<br>
-                          &emsp;- 호스팅한 숙소들의 예약 목록을 조회하고, 게스트의 예약을 취소할 수 있는 페이지<br>&emsp;&emsp;(숙소별 조회, 페이징 기능) 및 기능 구현<br>
-                        </p>
-                        <hr>
-                        <a href="https://github.com/TEAM-beeNb/BeeNb" class="btn btn-dark" target="_blank">Github</a>
-                        <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=2023607474#gid=2023607474" class="btn btn-info" target="_blank">인터페이스 설계서</a>
-                        <a href="https://docs.google.com/spreadsheets/d/1flmdfIy1I2wkLUOVqL8NT0mqpYqAdjnJkzew7Csy7G0/edit?gid=1064995659#gid=1064995659" class="btn btn-warning" target="_blank">WBS</a>
-                        <a href="assets/img/portfolio/semi_erd.png" class="btn btn-success" target="_blank">ERD</a>
-                        <br><br>
-                        <table>
-                          <tr>
-                            <td class="my-td1"><br>개발 환경</td>
-                            <td class="my-td2">
-                              <br>
-                              OS : Window 10
-                              <br>
-                              Language : Java(JavaSE-17), SQL, JSP
-                              <br>
-                              Tools : Eclipse, HeidiSQL
-                              <br>
-                              Database : MariaDB(10.4)
-                              <br>
-                              Server : Apache Tomcat (10.4 )
-                            </td>
-                          </tr>
-                          <tr style="border-bottom: solid 1px #BFC4C7;">
-                            <td class="my-td1"><br>서비스 환경</td>
-                            <td class="my-td2">
-                              <br>
-                              OS: Ubuntu (20.04)
-                              <br>
-                              Platform : Amazon Web Services Lightsail
-                              <br>
-                              Database : MariaDB(11.4)
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
+                          OS : Window 10
+                          <br>
+                          Language : Java(JavaSE-17), SQL, JSP
+                          <br>
+                          Tools : Eclipse, HeidiSQL
+                          <br>
+                          Database : MariaDB(10.4)
+                          <br>
+                          Server : Apache Tomcat (10.4 )
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="my-td1"><br>서비스 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS: Ubuntu (20.04)
+                          <br>
+                          Platform : Amazon Web Services Lightsail
+                          <br>
+                          Database : MariaDB(11.4)
+                        </td>
+                      </tr>
+                    </table>
                   </div>
+                </div>
+                <hr>
               </div>
             </div><!-- End Portfolio Item -->
             
             <!-- 쇼핑몰 프로젝트 -->
-            <div class="col-12 portfolio-item isotope-item filter-shop">
+            <div class="col-12 portfolio-item isotope-item filter-solo">
               <div class="row h-100">
-                  <div class="col-lg-6 col-md- portfolio-content">
-                      <a href="http://13.209.31.26/shop/customer/goods/customerGoodsList.jsp" target="_blank">
-                        <img src="assets/img/portfolio/shop_project.png" class="img-fluid" alt="">
-                          <div class="portfolio-info">
-                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
-                      <div>
-                        <h2>쇼핑몰 프로젝트</h2>
-                        <h4>2024.04.01 ~ 2024.05.03 (4주)</h4>
-                        <br>
-                        <p>
-                          MVC Model 1방식을 이용한 웹 개발 프로젝트입니다. <br>
-                          Controller와 View를 JSP에서 구현했고 DAO와 Connection Pool을 java 패키지로 따로 관리했습니다. <br><br>
-                          <b>&lt;기능&gt;</b>
-                          <br><br>
-                          [관리자]<br>
-                          &emsp;- 관리자 관리(추가 및 탈퇴) 및 권한 부여 기능(ON, OFF)<br>
-                          &emsp;- 상품 카테고리 관리(추가 및 삭제) 기능<br>
-                          &emsp;- 상품 관리(추가, 수정, 삭제) 및 리뷰 관리(삭제) 기능<br>
-                          &emsp;- 주문 관리 기능(배송 상태 변경)<br>
+                <div class="col-lg-6 col-md- portfolio-content" style="height: fit-content;">
+                    <a href="http://13.209.31.26/shop/customer/goods/customerGoodsList.jsp" target="_blank">
+                      <img src="assets/img/portfolio/shop_project.png" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                          <p>클릭시 사이트로 이동합니다</p>
+                          <i class="bi bi-globe" style="font-size: 2rem;"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                  <div>
+                    <h2>쇼핑몰 프로젝트</h2>
+                    <h4>2024.04.01 ~ 2024.05.03 (4주)</h4>
+                    <br>
+                    <p>
+                      MVC Model 1방식을 이용한 웹 개발 프로젝트입니다. <br>
+                      Controller와 View를 JSP에서 구현했고 DAO와 Connection Pool을 java 패키지로 따로 관리했습니다. <br><br>
+                      <b>&lt;기능&gt;</b>
+                      <br><br>
+                      [관리자]<br>
+                      &emsp;- 관리자 관리(추가 및 탈퇴) 및 권한 부여 기능(ON, OFF)<br>
+                      &emsp;- 상품 카테고리 관리(추가 및 삭제) 기능<br>
+                      &emsp;- 상품 관리(추가, 수정, 삭제) 및 리뷰 관리(삭제) 기능<br>
+                      &emsp;- 주문 관리 기능(배송 상태 변경)<br>
+                      <br>
+                      [고객]<br>
+                      &emsp;- 회원가입 및 로그인 기능<br>
+                      &emsp;- 개인정보 수정 및 탈퇴 기능<br>
+                      &emsp;- 최근 본 상품 기능<br>
+                      &emsp;- 상품 주문 기능 및 리뷰 작성, 수정, 삭제 기능<br>
+                      &emsp;- 해당 숙소의 후기 목록<br>
+                    </p>
+                    <hr>
+                    <a href="https://github.com/tmdduq500/shop-project" class="btn btn-dark" target="_blank">Github</a>
+                    <a href="assets/img/portfolio/shop_mindmap_emp.png" class="btn btn-info" target="_blank">마인드맵(관리자)</a>
+                    <a href="assets/img/portfolio/shop_mindmap_customer.png" class="btn btn-info" target="_blank">마인드맵(고객)</a>
+                    <a href="assets/img/portfolio/shop_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                    <br><br>
+                    <table>
+                      <tr>
+                        <td class="my-td1"><br>개발 환경</td>
+                        <td class="my-td2">
                           <br>
-                          [고객]<br>
-                          &emsp;- 회원가입 및 로그인 기능<br>
-                          &emsp;- 개인정보 수정 및 탈퇴 기능<br>
-                          &emsp;- 최근 본 상품 기능<br>
-                          &emsp;- 상품 주문 기능 및 리뷰 작성, 수정, 삭제 기능<br>
-                          &emsp;- 해당 숙소의 후기 목록<br>
-                        </p>
-                        <hr>
-                        <a href="https://github.com/tmdduq500/shop-project" class="btn btn-dark" target="_blank">Github</a>
-                        <a href="assets/img/portfolio/shop_mindmap_emp.png" class="btn btn-info" target="_blank">마인드맵(관리자)</a>
-                        <a href="assets/img/portfolio/shop_mindmap_customer.png" class="btn btn-info" target="_blank">마인드맵(고객)</a>
-                        <a href="assets/img/portfolio/shop_erd.png" class="btn btn-success" target="_blank">ERD</a>
-                        <br><br>
-                        <table>
-                          <tr>
-                            <td class="my-td1"><br>개발 환경</td>
-                            <td class="my-td2">
-                              <br>
-                              OS : Window 10
-                              <br>
-                              Language : Java(JavaSE-17), SQL, JSP
-                              <br>
-                              Tools : Eclipse, HeidiSQL
-                              <br>
-                              Database : MariaDB(10.4) -> OracleDB(19c)
-                              <br>
-                              Server : Apache Tomcat (10.1)
-                            </td>
-                          </tr>
-                          <tr style="border-bottom: solid 1px #BFC4C7;">
-                            <td class="my-td1"><br>서비스 환경</td>
-                            <td class="my-td2">
-                              <br>
-                              OS: Ubuntu (20.04)
-                              <br>
-                              Platform : Amazon Web Services Lightsail
-                              <br>
-                              Database : MariaDB(11.4)-> OracleDB(19c)
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
+                          OS : Window 10
+                          <br>
+                          Language : Java(JavaSE-17), SQL, JSP
+                          <br>
+                          Tools : Eclipse, HeidiSQL
+                          <br>
+                          Database : MariaDB(10.4) -> OracleDB(19c)
+                          <br>
+                          Server : Apache Tomcat (10.1)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="my-td1"><br>서비스 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS: Ubuntu (20.04)
+                          <br>
+                          Platform : Amazon Web Services Lightsail
+                          <br>
+                          Database : MariaDB(11.4)-> OracleDB(19c)
+                        </td>
+                      </tr>
+                    </table>
                   </div>
+                </div>
+                <hr>
               </div>
             </div><!-- End Portfolio Item -->
 
             <!-- 다이어리 프로젝트 -->
-            <div class="col-12 portfolio-item isotope-item filter-diary">
+            <div class="col-12 portfolio-item isotope-item filter-solo">
               <div class="row h-100">
-                  <div class="col-lg-6 col-md- portfolio-content">
-                      <a href="http://13.209.31.26/diary/diaryListOfMonth.jsp" target="_blank">
-                        <img src="assets/img/portfolio/diary_project.png" class="img-fluid" alt="">
-                          <div class="portfolio-info">
-                              <i class="bi bi-globe" style="font-size: 2rem;"></i>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-lg-6 col-md-6 d-flex align-items-center">
-                    <div>
-                      <h2>다이어리 프로젝트</h2>
-                      <h4>2024.03.26 ~ 2024.04.03 (1주)</h4>
-                      <br>
-                      <p>
-                        Dynamic Web Project를 사용해 JSP로 개발하였습니다.<br>
-                        전공으로 프로그래밍 언어(ex.java, python, SQL)을 배웠었지만 웹 개발은 처음이었습니다. <br>
-                        DB부터 브라우저까지 웹이 작동하는 방식을 알 수 있었습니다. <br>
-                        JDBC API를 이용하여 DB를 연동했고, JSP로 Controller, View를 모두 구현하였습니다. <br>
-                      </p>
-                      <hr>
-                      <a href="https://github.com/tmdduq500/diary-project" class="btn btn-dark" target="_blank">Github</a>
-                      <a href="assets/img/portfolio/diary_mindmap.png" class="btn btn-info" target="_blank">마인드맵</a>
-                      <a href="assets/img/portfolio/diary_erd.png" class="btn btn-success" target="_blank">ERD</a>
-                      <br><br>
-                      <table>
-                        <tr>
-                          <td class="my-td1"><br>개발 환경</td>
-                          <td class="my-td2">
-                            <br>
-                            OS : Window 10
-                            <br>
-                            Language : Java(JavaSE-17), SQL, JSP
-                            <br>
-                            Tools : Eclipse, HeidiSQL
-                            <br>
-                            Database : MariaDB(10.4)
-                            <br>
-                            Server : Apache Tomcat(10.1)
-                          </td>
-                        </tr>
-                        <tr style="border-bottom: solid 1px #BFC4C7;">
-                          <td class="my-td1"><br>서비스 환경</td>
-                          <td class="my-td2">
-                            <br>
-                            OS: Ubuntu (20.04)
-                            <br>
-                            Platform : Amazon Web Services Lightsail
-                            <br>
-                            Database : MariaDB(11.4)
-                          </td>
-                        </tr>
-                      </table>
+                <div class="col-lg-6 portfolio-content" style="height: fit-content;">
+                  <a href="http://13.209.31.26/diary/diaryListOfMonth.jsp" target="_blank">
+                    <img src="assets/img/portfolio/diary_project.png" class="img-fluid" alt="">
+                    <div class="portfolio-info">
+                      <p>클릭시 사이트로 이동합니다</p>
+                      <i class="bi bi-globe" style="font-size: 2rem;"></i>
                     </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                  <div>
+                    <h2>다이어리 프로젝트</h2>
+                    <h4>2024.03.26 ~ 2024.04.03 (1주)</h4>
+                    <br>
+                    <p>
+                      Dynamic Web Project를 사용해 JSP로 개발하였습니다.<br>
+                      전공으로 프로그래밍 언어(ex.java, python, SQL)을 배웠었지만 웹 개발은 처음이었습니다. <br>
+                      DB부터 브라우저까지 웹이 작동하는 방식을 알 수 있었습니다. <br>
+                      JDBC API를 이용하여 DB를 연동했고, JSP로 Controller, View를 모두 구현하였습니다. <br>
+                    </p>
+
+                    <b>[기능]</b>
+                    <br>
+                    &emsp;- 일기 관리(추가, 수정, 삭제) 기능<br>
+                    &emsp;- Java Calendar API 사용하여 달력 기능 구현<br>
+                    &emsp;- 점심 투표 기능 및 통계 출력<br>
+                    <hr>
+                    <a href="https://github.com/tmdduq500/diary-project" class="btn btn-dark" target="_blank">Github</a>
+                    <a href="assets/img/portfolio/diary_mindmap.png" class="btn btn-info" target="_blank">마인드맵</a>
+                    <a href="assets/img/portfolio/diary_erd.png" class="btn btn-success" target="_blank">ERD</a>
+                    <br><br>
+                    <table>
+                      <tr>
+                        <td class="my-td1"><br>개발 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS : Window 10
+                          <br>
+                          Language : Java(JavaSE-17), SQL, JSP
+                          <br>
+                          Tools : Eclipse, HeidiSQL
+                          <br>
+                          Database : MariaDB(10.4)
+                          <br>
+                          Server : Apache Tomcat(10.1)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="my-td1"><br>서비스 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS: Ubuntu (20.04)
+                          <br>
+                          Platform : Amazon Web Services Lightsail
+                          <br>
+                          Database : MariaDB(11.4)
+                        </td>
+                      </tr>
+                    </table>
                   </div>
+                </div>
+                <hr>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- 졸업작품 - 딥러닝을 활용한 시각적 드럼가이드 -->
+            <div class="col-12 portfolio-item isotope-item filter-solo">
+              <div class="row h-100">
+                <div class="col-lg-6" style="height: fit-content;">
+                    <img src="#" class="img-fluid" alt="">
+                      <div class="portfolio-info">
+                      </div>
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex align-items-center">
+                  <div>
+                    <h2>딥러닝을 활용한 시각적 드럼가이드<br>(졸업작품)</h2>
+                    <br>
+                    <p>
+                      딥러닝을 활용한 시각적 드럼가이드라는 프로젝트를 진행하였습니다.
+                      OpenCV를 이용해 악보의 음표, 쉼표 등 구성 요소들을 객체로 인식시켜 각각 이미지로 저장한 후
+                      이미지들을 딥러닝을 통해 드럼에 맞는 심벌과 북의 위치를 출력하는 알고리즘 개발을 담당했습니다.
+                    </p>
+
+                    <a href="https://github.com/tmdduq500/music-sheet-algorithm" class="btn btn-dark" target="_blank">Github</a>
+                    <br><br>
+                    <table>
+                      <tr>
+                        <td class="my-td1"><br>개발 환경</td>
+                        <td class="my-td2">
+                          <br>
+                          OS : Window 10
+                          <br>
+                          Language : Python
+                          <br>
+                          API : tensorflow, Keras
+                          <br>
+                          Tools : Visual Studio Code, Google Colab
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
               </div>
             </div><!-- End Portfolio Item -->
         
