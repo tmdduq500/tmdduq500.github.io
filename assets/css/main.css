@@ -1278,3 +1278,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.skills-content .text-left img {
+  margin: 5px 0;
+}
