@@ -523,11 +523,12 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .hero p {
   margin: 5px 0 0 0;
-  font-size: 26px;
+  font-size: 35px;
 }
 
 .hero p span {
@@ -1279,6 +1280,16 @@ section,
   /* Add your styles here */
 }
 
-.skills-content .text-left img {
-  margin: 5px 0;
+.skill_detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 77px;
+}
+
+.skill_detail img {
+  margin-right: 5px;
+  margin: 5px;
+  height: 25px;
+  width: 25px;
 }
